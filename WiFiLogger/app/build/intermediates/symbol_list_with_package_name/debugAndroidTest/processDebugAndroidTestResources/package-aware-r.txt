@@ -1,0 +1,3 @@
+com.example.wifilogger.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

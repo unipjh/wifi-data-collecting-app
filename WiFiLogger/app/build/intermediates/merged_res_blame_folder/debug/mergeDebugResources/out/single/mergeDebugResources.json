@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.wifilogger.app-debug-36:/layout_activity_main.xml.flat",
+        "source": "com.example.wifilogger.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.wifilogger.app-debug-36:/xml_backup_rules.xml.flat",
+        "source": "com.example.wifilogger.app-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.wifilogger.app-debug-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.wifilogger.app-main-38:/xml/data_extraction_rules.xml"
+    }
+]

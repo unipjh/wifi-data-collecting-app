@@ -1,0 +1,6 @@
+com.example.wifilogger.test.app-annotation-experimental-1.3.0-0 C:\Users\user\.gradle\caches\transforms-3\8b1c7a993545e44526ff2b200da39313\transformed\annotation-experimental-1.3.0\res
+com.example.wifilogger.test.app-core-1.5.0-1 C:\Users\user\.gradle\caches\transforms-3\e882b527feeba41c496f2543566bb20f\transformed\core-1.5.0\res
+com.example.wifilogger.test.app-androidTest-2 C:\Users\user\Downloads\WiFiLogger\WiFiLogger\app\build\generated\res\resValues\androidTest\debug
+com.example.wifilogger.test.app-mergeDebugAndroidTestResources-3 C:\Users\user\Downloads\WiFiLogger\WiFiLogger\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.wifilogger.test.app-mergeDebugAndroidTestResources-4 C:\Users\user\Downloads\WiFiLogger\WiFiLogger\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.wifilogger.test.app-debugAndroidTest-5 C:\Users\user\Downloads\WiFiLogger\WiFiLogger\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

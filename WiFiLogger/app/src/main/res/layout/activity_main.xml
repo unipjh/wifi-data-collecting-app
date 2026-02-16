@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WiFi Logger"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#2196F3"/>
+
+        <TextView
+            android:id="@+id/tvServiceStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="대기 중 ⚪"
+            android:textSize="14sp"
+            android:layout_marginBottom="24dp"
+            android:textColor="#999999"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="측정 위치 선택"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="#333333"/>
+
+        <Spinner
+            android:id="@+id/spinnerFloor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:background="@android:drawable/btn_dropdown"/>
+
+        <Button
+            android:id="@+id/btnToggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="측정 시작"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#4CAF50"/>
+
+        <Button
+            android:id="@+id/btnSaveNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="지금 저장"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="#FF9800"
+            android:enabled="false"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F5F5F5"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/tvDataCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="수집된 데이터: 0개"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"
+                android:textColor="#333333"/>
+
+            <TextView
+                android:id="@+id/tvLastData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="측정을 시작하세요"
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#666666"/>
+
+            <TextView
+                android:id="@+id/tvNextSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="다음 저장: -"
+                android:textSize="14sp"
+                android:textColor="#666666"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✓ 백그라운드 실행 지원\n✓ 화면 꺼져도 측정 계속\n✓ 알림바에서 제어 가능"
+            android:textSize="12sp"
+            android:textColor="#4CAF50"
+            android:layout_marginTop="8dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="측정 주기: 3초 | CSV 저장 주기: 30분"
+            android:textSize="12sp"
+            android:textColor="#999999"
+            android:layout_marginTop="16dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="저장 위치: Downloads 폴더"
+            android:textSize="12sp"
+            android:textColor="#999999"
+            android:layout_marginTop="8dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>
