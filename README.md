@@ -23,6 +23,9 @@ WiFiLogger/
 ├── settings.gradle.kts
 └── build.gradle.kts (Project level)
 ```
+## 인터페이스 
+<img width="648" height="1404" alt="image" src="https://github.com/user-attachments/assets/2b0775e6-66b3-4b72-b257-745bb6ad2cd8" />
+
 
 ## 주요 기능
 - 3초마다 WiFi 정보, Ping, GPS 수집
